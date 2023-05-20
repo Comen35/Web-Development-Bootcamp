@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positioning Exercise</title>
+    <style>
+      .blue-box {
+        position: relative;
+        background-color: blue;
+        width: 500px;
+        height: 200px;
+        left: 200px;
+        top: 150px;
+        border-radius: 10px;
+      }
+      .red-circle-front {
+        position: absolute;
+        top: 150px;
+        left: 360px;
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 5px solid white;
+      }
+      .red-circle-back {
+        position: absolute;
+        top: 150px;
+        left: 20px;
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 5px solid white;
+      }
+      .middle {
+        height: 50px;
+        width: 50px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 50%;
+        margin: 25% auto;
+      }
+      .window{
+        height: 70px;
+        width: 100px;
+        background-color: white;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+      }
+      #second{
+        left: 200px;
+        top: 50px;
+      }
+      #third{
+        left:350px;
+        top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="blue-box">
+      <div class="window" id="first"></div>
+      <div class="window" id="second"></div>
+      <div class="window" id="third"></div>
+      <div class="window"></div>
+      <div class="red-circle-front">
+        <div class="middle"></div>
+      </div>
+      <div class="red-circle-back">
+        <div class="middle"></div>
+      </div>
+    </div>
+  </body>
+</html>
