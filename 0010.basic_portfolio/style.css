@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Meddon&family=Pacifico&family=Poppins&display=swap");
+
+body {
+  background-color: #0f172a;
+}
+
+.navbar {
+  background-color: #0f172a !important;
+}
+.logo {
+  color: #7477ff !important;
+  font-family: "Meddon", cursive;
+  font-size: 40px;
+  letter-spacing: 0.05rem;
+}
+nav a {
+  color: #ffffff !important;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+}
+
+nav a:hover {
+  color: #7477ff !important;
+  transition: 0.7s;
+}
+.greeting {
+  font-family: "Pacifico", cursive;
+  font-size: 5rem;
+}
+.my-technologies {
+  font-family: "Poppins", sans-serif;
+  color: #cccccc;
+  font-size: 16px;
+}
+.btn-projects {
+  background-color: #7477ff;
+  width: 13rem;
+  height: 4rem;
+  color: #ffffff;
+  font-size: 18;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+.btn-projects:hover {
+  background-color: #7467ff;
+  color: #ffffff;
+}
+.hero-img {
+  padding-left: 5rem;
+}
+.tech-list {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  line-height: 2rem;
+}
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+  margin-top: 15rem;
+  width: 363px;
+  height: 363px;
+}
+.tags {
+  display: flex;
+}
+.tags a {
+  background-color: #6c63ff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+#about .container {
+  background-color: #1e293b;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+#about h1 {
+  font-size: 35px;
+  margin-top: 5rem;
+}
+#about p {
+  line-height: 2.5rem;
+}
+
+#first-letter {
+  color: #7477ff;
+  font-size: 8rem;
+}
+#hero {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+#underline {
+  height: 2px;
+  /* width: 162px;*/
+  background-color: #ffffff;
+}
+#projects p {
+  line-height: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#blog p {
+  line-height: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#contact .container {
+  background-color: #1e293b;
+  font-family: "Poppins", sans-serif;
+
+ 
+}
+.contact-txt {
+  margin: 2rem 15rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.info {
+  margin-left: 40%;
+}

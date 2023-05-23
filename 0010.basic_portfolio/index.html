@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="navbar">
+      <div class="container">
+        <nav class="navbar bg-body-tertiary p-4">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">Bahadır Aytaş</a>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section id="hero">
+      <div class="container">
+        <div class="container-fluid mx-4">
+          <div class="row">
+            <div class="col-6">
+              <h1 class="text-light greeting">
+                Hi,<br />I am <span id="first-letter">B</span>ahadır,<br />Web
+                developer
+              </h1>
+              <p class="text-white mt-5 my-technologies">
+                Fullstack Developer, Profficienct in Angular & Django
+              </p>
+              <button class="btn btn-projects">See Projects</button>
+            </div>
+            <div class="col-6 hero-img mt-5">
+              <img src="./src/images/hero-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-6 px-5 py-5 text-white">
+            <h1 class="text-white">About Me</h1>
+            <hr id="underline" />
+            <p class="mt-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              tristique enim ac felis cursus, ut cursus ligula cursus. Duis
+              varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc
+              viverra tempus eleifend. Sed posuere augue non nulla consectetur
+              hendrerit. In molestie urna in viverra pulvinar. Aenean facilisis
+              id massa pretium lobortis Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Donec tristique enim ac felis cursus, ut cursus
+              ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis
+              nisi luctus. Nunc
+            </p>
+            <h4 class="mt-5">Technologies I’ve worked with:</h4>
+            <div class="row mt-3">
+              <div class="col-3">
+                <ul class="tech-list">
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <ul class="tech-list">
+                  <li>Angular</li>
+                  <li>Bootstrap</li>
+                  <li>Tailwind</li>
+                  <li>Django</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 about-img">
+            <img src="./src/images/about-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-6 px-5 py-5 text-white">
+            <h1 class="text-white">Projects</h1>
+            <hr id="underline" />
+            <p class="mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              tristique enim ac felis cursus, ut cursus ligula cursus. Duis
+              varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc
+            </p>
+          </div>
+          <div class="row px-5 py-2">
+            <div class="col-3">
+              <img src="./src/images/2.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="./src/images/3.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="./src/images/4.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="./src/images/5.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="./src/images/6.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="./src/images/4.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="./src/images/2.png" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="./src/images/3.png" alt="" />
+            </div>
+            <button class="btn btn-projects mt-4">More Projects</button>
+          </div>
+        </div>
+        <div class="row" id="blog">
+          <div class="col-6 px-5 py-5 text-white">
+            <h1 class="text-white">Blog</h1>
+            <hr id="underline" />
+            <p class="mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              tristique enim ac felis cursus, ut cursus ligula cursus. Duis
+              varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc
+            </p>
+          </div>
+          <div class="row px-5 py-2">
+            <div class="col-6 mr-5">
+              <img src="./src/images/blog.png" alt="" />
+              <div class="tags mt-3 mb-3">
+                <a class="tag px-3 py-1 rounded-3 text-white" href="#">Tag</a>
+                <a class="tag px-3 py-1 rounded-3 text-white" href="#">Tag</a>
+              </div>
+              <p class="text-white">
+                ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit,
+                eget venenatis nisi luctus. Nunc
+              </p>
+            </div>
+
+            <div class="col-6">
+              <img src="./src/images/blog-2.png" alt="" />
+              <div class="tags mt-3 mb-3">
+                <a class="tag px-3 py-1 rounded-3 text-white" href="#">Tag</a>
+                <a class="tag px-3 py-1 rounded-3 text-white" href="#">Tag</a>
+              </div>
+              <p class="text-white">
+                ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit,
+                eget venenatis nisi luctus. Nunc
+              </p>
+            </div>
+            <button class="btn btn-projects mt-4">More Projects</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container mt-5 text-center">
+        <div class="row justify-content-center">
+          <div class="col-12 px-5 py-5 text-white">
+            <h1 class="text-white">Contact Me</h1>
+            <hr id="underline" class="mx-auto" />
+            <p class="contact-txt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              tristique enim ac felis cursus, ut cursus ligula cursus. Duis
+              varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc
+            </p>
+            <div class="info">
+              <div class="row">
+                <div class="col-12 d-flex">
+                  <p>Email:</p>
+                  <p class="ms-5">johndoe@mail.com</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 d-flex text-center">
+                  <p>Phone:</p>
+                  <p class="ms-5">222-3342-2482</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="navbar">
+      <div class="container">
+        <nav class="navbar bg-body-tertiary py-5">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              >&COPY; 2023 bahadiraytas all right reserved</a
+            >
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-brands fa-facebook fs-3"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">
+                  <i class="fa-brands fa-twitter fs-3"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">
+                  <i class="fa-brands fa-linkedin fs-3"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </body>
+</html>
